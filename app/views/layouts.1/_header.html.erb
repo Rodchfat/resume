@@ -1,0 +1,61 @@
+            <!-- Header -->
+            <div id="Header_wrapper">
+
+            <header id="Header">
+
+                <!-- Header -  Logo and Menu area -->
+                <div id="Top_bar">
+                    <div class="container">
+                        <div class="column one">
+                            <div class="top_bar_left clearfix">
+                                <!-- Logo-->
+                                <div class="logo">
+                                    <a id="logo" href="index-resume.html" title="BeResume - BeTheme"><%= image_tag "resume.png", class: "logo-main scale-with-grid"   %> 
+                                    </a>
+                                </div>
+                                <!-- Main menu-->
+                                <div class="menu_wrapper">
+                                    <nav id="menu">
+                                        <ul id="menu-main-menu" class="menu">
+                                            <li class="menu-item-home">
+                                                <%= link_to 'About', about_path %>
+                                                <!--<a href="home.html.erb.#about"><span>About</span></a>-->
+                                            </li>
+                                            <li class="menu-item-home">
+                                                <%= link_to 'skills', skills_path %>
+                                                <!--<a href="home.html.erb.#skills"><span>Skills</span></a>-->
+                                            </li>
+                                            <li class="menu-item-home">
+                                                <a href="home.html.erb#experience"><span>Experience</span></a>
+                                            </li>
+                                            <li class="menu-item-home">
+                                                <a href="home.html.erb#portfolio"><span>Portfolio</span></a>
+                                            </li>
+                                            <li class="menu-item-home">
+                                                <a href="home.html.erb#education"><span>Education</span></a>
+                                            </li>
+                                            <li class="menu-item-home">
+                                                <a href="home.html.erb#contact"><span>Contact</span></a>
+                                            </li>
+                                        </ul>
+                                    </nav><a class="responsive-menu-toggle " href="#"><i class="icon-menu"></i></a>
+                                </div>
+                                <!-- Header Searchform area-->
+                                <div class="search_wrapper">
+                                    <form method="get" id="searchform" action="#">
+                                        <i class="icon_search icon-search"></i><a href="#" class="icon_close"><i class="icon-cancel"></i></a>
+                                        <input type="text" class="field" name="s" id="s" placeholder="Enter your search" />
+                                        <input type="submit" class="submit flv_disp_none" value="" />
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="top_bar_right">
+                                <div class="top_bar_right_wrapper">
+                                    <a id="search_button" href="#"><i class="icon-search"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            </div>

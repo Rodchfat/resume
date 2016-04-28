@@ -1,0 +1,17 @@
+#about{
+    
+padding-top:100px; 
+padding-bottom:60px; 
+background-color:#373737; 
+
+/*background-image: url(<%= asset_data_uri "daniel-petterson.png" %>); */
+background-repeat:no-repeat; 
+background-position:center top; 
+background-attachment:fixed; 
+background-size:cover; 
+-webkit-background-size:cover;
+}
+#about { 
+    background: url(<%= asset_data_uri 'daniel-petterson.png' %>) 
+    
+}
