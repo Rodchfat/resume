@@ -1,16 +1,9 @@
 Rails.application.routes.draw do
   root 'pages#home'
   # resources :pages, except: [:home]
-
-  get 'about', to: "pages#about"
-
-  get 'skills', to: 'pages#sKills'
-
-  get 'experties', to: 'pages#experties'
-
-  get 'portfolio', to: 'pages#portfolio'
-
-  get 'education', to:'pages#education'
+  
+  match '/contacts',     to: 'contacts#new',             via: 'get'
+resources "contacts", only: [:new, :create]
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

@@ -1,5 +1,4 @@
 
-
 #about{
     
 padding-top:100px; 
@@ -13,8 +12,12 @@ background-attachment:fixed;
 background-size:cover; 
 -webkit-background-size:cover;
 }
+// #about { 
+//     background: url(<%= asset_data_uri 'daniel-petterson.png' %>) 
+    
+// }
 #person_image{
-	float: left;
+	float: right;
     margin: 0 0 10px 10px;
     clear: left;
 }
